@@ -1,0 +1,27 @@
+write a function to create a node using double linked list 
+Sol:: 
+void create()
+{
+struct node*newnode,*ptr;
+int elements;
+printf("\n enter elements to be insert");
+scanf("%d" , &elements);
+newnode=(struct node*)malloc(size of (struct node));
+newnode->data=elements;
+newnode->next=NULL;
+newnode->prev=NULL;
+if(start==newnode;
+{
+start==newnode;
+}
+else
+{
+ptr=start;
+while(ptr->next!=NULL)
+{
+ptr=ptr->next;
+}
+ptr->next=newnode;
+newnode->prev=ptr;
+}
+}

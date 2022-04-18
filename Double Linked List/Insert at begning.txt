@@ -1,0 +1,22 @@
+
+void insert at begining()
+{
+struct node*newnode;
+int elements;
+printf("\n enter elements to be inserted");
+scanf("%d",&elements);
+newnode=(struct node*)malloc(size of (struct node));
+newnode->data=elements;
+newnode->next=NULL;
+newnode->prev=NULL;
+if(start==NULL)
+{
+start=newnode;
+}
+else
+{
+newnode->next=start;
+start->prev=newnode;
+start=newnode;
+}
+}

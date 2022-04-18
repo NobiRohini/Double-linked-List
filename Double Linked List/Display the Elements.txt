@@ -1,0 +1,19 @@
+ 
+void display()
+{
+struct node*ptr;
+ptr=start;
+if (start==NULL)
+{
+printf("List is empty");
+}
+else
+{
+ptr=start;
+while(ptr!=NULL)
+{
+printf("%d---->",ptr->data);
+ptr=ptr->next;
+}
+}
+}
